@@ -1,0 +1,20 @@
+{
+  "name": "three-solar-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "./node_modules/webpack/bin/webpack.js",
+    "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+  },
+  "author": "Andrea Peretti <andrea@andxet.dev> (http://www.andxet.dev)",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.112.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.10.1"
+  }
+}
